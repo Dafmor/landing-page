@@ -6,22 +6,69 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background: #1F2937;
+    color: white;
+    padding-bottom: 3em;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .header-link {
     display: flex;
     list-style-type: none;
-    margin-right: 5em;
+    margin-right: 50px;
 }
 
 .header-logo {
     margin: 0;
     padding: 0;
-    margin-left: 5em;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 40px
+}
+
+.under-header {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.toronto-skyline {
+    width: 550px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.title {
+    width: 400px;
+    height: 350px;
+    margin-left: 50px;
+}
+.title h1 {
+    font-size: 55px;
+    margin-top: -10px;
+}
+
+.sub-text {
+    font-size: 30px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.title-sign {
+    background: royalblue;
+    border : 1px royalblue;
+    color: white;
+    margin-top: 30px;
 }
