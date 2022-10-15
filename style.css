@@ -101,3 +101,26 @@ button {
     color: #575757;
     font-weight: bold;
 }
+
+.quote-background {
+    background: #e5e7eb;
+    padding: 80px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px ;
+    color: #1F2937;
+    width: 600px;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 28em;
+}
