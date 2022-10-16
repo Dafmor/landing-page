@@ -162,3 +162,15 @@ button {
     border: 2px solid white;
     color: white;
 }
+
+.footer-background {
+    background: #1F2937;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+}
