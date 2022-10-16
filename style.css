@@ -128,3 +128,37 @@ button {
     font-size: 25px;
     margin-left: 28em;
 }
+
+.sign-up-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up-background div {
+    color: white;
+}
+.sign-box {
+    height: 125px;
+    width: 800px;
+    background: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-text {
+   margin-right: 10em;
+}
+
+.sign-text .sign-title {
+    font-weight: 900;
+}
+
+.sign-button button {
+    background: #3882f6;
+    border: 2px solid white;
+    color: white;
+}
